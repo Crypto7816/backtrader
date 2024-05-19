@@ -39,6 +39,7 @@ from matplotlib.dates import (HOURS_PER_DAY, MIN_PER_HOUR, SEC_PER_MIN,
                               num2date, rrulewrapper, YearLocator,
                               MicrosecondLocator)
 
+import warnings
 from dateutil.relativedelta import relativedelta
 import numpy as np
 
